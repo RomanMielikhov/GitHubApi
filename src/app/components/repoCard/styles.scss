@@ -1,0 +1,32 @@
+.repo_card {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  height: 100px;
+  width: 80%;
+  & a {
+    display: flex;
+    padding: 10px 50px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  &:hover {
+    background-color: rgb(243, 243, 223);
+  }
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 1;
+  flex-basis: 0;
+}
